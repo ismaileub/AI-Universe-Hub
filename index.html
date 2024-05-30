@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Universe Hubs</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .font {
+            font-family: "Inter", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="container mx-auto font">
+    <header>
+        <h1 class="text-black text-center text-4xl font-semibold">AI Universe Hub</h1>
+    </header>
+
+    <main class="mt-10">
+        <section id="show-container" class="grid grid-cols-1 lg:grid-cols-3 gap-7">
+
+
+
+        </section>
+        <section>
+            <!-- show all button -->
+            <div onclick="handleShowAll()" id="show-all-container" class=" text-center my-10">
+                <button onclick="handleSearch()" class="btn btn-active btn-accent">Show all</button>
+            </div>
+        </section>
+
+        <section class="">
+            <!-- show  details model  -->
+            <!-- Open the modal using ID.showModal() method -->
+
+            <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle     ">
+                <div class="bg-white w-3/5 rounded-xl">
+
+                    <div id="show-details-container" class="flex justify-between items-center gap-5 px-16 pt-16 pb-6 ">
+
+
+                    </div>
+
+                    <div class="modal-action">
+                        <form method="dialog">
+                            <!-- if there is a button in form, it will close the modal -->
+                            <button class="btn">Close</button>
+                        </form>
+                    </div>
+
+                </div>
+
+
+            </dialog>
+
+
+        </section>
+
+        <section class="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+    </main>
+
+    <script src="./js/ai_hub.js"></script>
+</body>
+
+</html>
